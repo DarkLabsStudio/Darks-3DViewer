@@ -2,7 +2,7 @@
 
 Darks 3DViewer is a free and open source web solution to visualize and explore 3D models in your browser. This repository contains the source code of the website and the engine behind it.
 
-[Live website](https://3dviewer.net) &nbsp;-&nbsp; [Website manual](https://3dviewer.net/info) &nbsp;-&nbsp; [Developer documentation](docs/index.html) &nbsp;-&nbsp; [Report an issue](https://github.com/DarkLabsStudio/Darks-3DViewer/issues)
+[Live website](https://darklabsstudio.github.io/Darks-3DViewer) &nbsp;-&nbsp; [Website manual](https://darklabsstudio.github.io/Darks-3DViewer/info) &nbsp;-&nbsp; [Developer documentation](docs/index.html) &nbsp;-&nbsp; [Report an issue](https://github.com/DarkLabsStudio/Darks-3DViewer/issues)
 
 ## Engine
 

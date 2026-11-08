@@ -135,6 +135,6 @@ export class ExporterObj extends ExporterBase
 
     GetHeaderText ()
     {
-        return '# exported by https://3dviewer.net';
+        return '# exported by https://darklabsstudio.github.io/Darks-3DViewer';
     }
 }

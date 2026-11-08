@@ -1,6 +1,6 @@
 ---
 name: 02 - Website feature request
-about: If you are using the Darks 3DViewer website (3dviewer.net), and have an improvement idea.
+about: If you are using the Darks 3DViewer website, and have an improvement idea.
 title: ''
 labels: enhancement, website
 assignees: ''

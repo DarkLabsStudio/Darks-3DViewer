@@ -96,7 +96,7 @@ describe ('Exporter', function () {
             assert.strictEqual (mtlFile.GetName (), 'model.mtl');
             assert.strictEqual (mtlFile.GetTextContent (),
             [
-                '# exported by https://3dviewer.net',
+                '# exported by https://darklabsstudio.github.io/Darks-3DViewer',
                 'newmtl TestMaterial1',
                 'Kd 1 0 0',
                 'd 1',
@@ -118,7 +118,7 @@ describe ('Exporter', function () {
             assert.strictEqual (objFile.GetName (), 'model.obj');
             assert.strictEqual (objFile.GetTextContent (),
             [
-                '# exported by https://3dviewer.net',
+                '# exported by https://darklabsstudio.github.io/Darks-3DViewer',
                 'mtllib model.mtl',
                 'g TestMesh1',
                 'v 0 0 1',

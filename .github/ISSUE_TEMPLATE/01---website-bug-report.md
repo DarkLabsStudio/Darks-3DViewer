@@ -1,6 +1,6 @@
 ---
 name: 01 - Website bug report
-about: If you are using the Darks 3DViewer website (3dviewer.net), and found a bug.
+about: If you are using the Darks 3DViewer website, and found a bug.
 title: ''
 labels: bug, website
 assignees: ''

@@ -20,14 +20,16 @@ This document tracks the rebranding work so it is clear what has changed and wha
 * **Legal** - `LICENSE.md` keeps the original MIT copyright and adds the fork's copyright line.
   A Credits section in the README attributes the upstream project.
 * **Issue templates** - reworded for the Darks 3DViewer website.
+* **Site URL** - canonical links, share links, embed snippets, the `.htaccess` redirect and exported file
+  metadata use the GitHub Pages address `https://darklabsstudio.github.io/Darks-3DViewer`.
+  The places to change if the site moves: `source/website/sharingdialog.js`,
+  `source/engine/export/exportergltf.js`, `source/engine/export/exporterobj.js`, `website/index.html`,
+  `website/info/index.html`, `website/.htaccess` and `test/tests/exporter_test.js` (keep the last one in sync).
+* **Hosting** - `.github/workflows/pages.yml` builds the release package with `npm run create_package`
+  and deploys `build/package/website` to GitHub Pages on every push to `master`.
 
-## Deliberately unchanged (compatibility / pending decisions)
+## Deliberately unchanged (compatibility)
 
-* **Domain** - `https://3dviewer.net` is still used for canonical URLs, share links, embed snippets,
-  the `.htaccess` redirect and exported file metadata. These are centralized enough to swap later:
-  `source/website/sharingdialog.js`, `source/engine/export/exportergltf.js`,
-  `source/engine/export/exporterobj.js`, `website/index.html`, `website/info/index.html`,
-  `website/.htaccess` and `test/tests/exporter_test.js` (keep the last one in sync).
 * **Engine artifact names** - `o3dv.min.js`, `o3dv.module.js`, `o3dv.website.min.js`, the `OV` global and
   the `ov_` CSS prefix are the public build/API surface and were not renamed.
 * **Embed class name** - `online_3d_viewer` stays, so existing embedded viewers keep working.
@@ -37,7 +39,8 @@ This document tracks the rebranding work so it is clear what has changed and wha
 
 ## Open items
 
-1. **Domain** - register a domain and replace `3dviewer.net` everywhere listed above (including `.htaccess`).
+1. **Custom domain** - the site is served from the GitHub Pages project path. If a custom domain is added,
+   replace `https://darklabsstudio.github.io/Darks-3DViewer` everywhere listed above (including `.htaccess`).
 2. **Logo art** - the cube mark is unchanged and the social share image
    (`darks_3dviewer_logo_social.png`) still shows the old branding. The legacy masters live in
    `assets/logos/upstream/`; a proper brand pass should replace the 512px icon, social image and favicon.

@@ -349,7 +349,7 @@ export class ExporterGltf extends ExporterBase
 
         let mainJson = {
             asset : {
-                generator : 'https://3dviewer.net',
+                generator : 'https://darklabsstudio.github.io/Darks-3DViewer',
                 version : '2.0'
             },
             scene : 0,
