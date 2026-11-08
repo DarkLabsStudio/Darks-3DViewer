@@ -33,9 +33,9 @@ function GenerateHeader (activeMenu)
 	let logoImgLink = CreateElement (logoDiv, 'a', null);
 	logoImgLink.setAttribute ('href', 'index.html');
 	let logoImgWithTextDiv = CreateElement (logoImgLink, 'img', 'logo_with_text');
-	logoImgWithTextDiv.src = 'images/3dviewer_net_logo_text.svg';
+	logoImgWithTextDiv.src = 'images/darks_3dviewer_logo_text.svg';
 	let logoImgWithoutTextDiv = CreateElement (logoImgLink, 'img', 'logo_without_text');
-	logoImgWithoutTextDiv.src = 'images/3dviewer_net_logo.svg';
+	logoImgWithoutTextDiv.src = 'images/darks_3dviewer_logo.svg';
 
 	let menuDiv = CreateElement (frameDiv, 'div', 'menu');
 	GenerateMenu (menuDiv, activeMenu);
